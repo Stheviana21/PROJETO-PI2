@@ -468,7 +468,7 @@ main {
   letter-spacing: 1.92px;
 }
 
-.container-cta{
+.container-faixa{
   display: flex;
   width: 1312px;
   height: 64px;
@@ -480,9 +480,10 @@ main {
   align-items: center;
   gap: 550px;
   border: 1px solid blue;
+  margin-bottom: 40px;
 }
 
-.container-text-cta{
+.container-text-faixa{
   width: 518px;
   height: 64px;
   display: flex;
@@ -526,3 +527,58 @@ main {
   align-items: center;
 }
 
+.container-meusPacientes{
+  display: flex;
+  width: 1312px;
+  height: 628px;
+  overflow: hidden;
+  border-radius: 3px;
+  border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 1px solid blue;
+}
+
+.container-titulo-meusPacientes{
+  display: flex;
+  width: 1312px;
+  height: 97px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid blue;
+}
+
+.titulo-meusPacientes{
+  display: flex;
+  width: 1302px;
+  height: 97px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid blue;
+}
+
+.titulo-paciente{
+  width: 257px;
+  height: 43px;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: "Inria Serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-comentarios{
+  display: flex;
+  width: 1312px;
+  height: 334px;
+  overflow: hidden;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid blue;  
+}
