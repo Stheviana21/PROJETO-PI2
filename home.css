@@ -574,10 +574,33 @@ main {
 .container-comentarios{
   display: flex;
   width: 1312px;
-  height: 334px;
+  height: 454px;
   overflow: hidden;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
   border: 1px solid blue;  
+  
+}
+
+.container-comentario{
+  width: 386px;
+  height: 414px;
+  overflow: hidden;
+  border-radius: 60px;
+  border: 1px solid var(--PrimeiraCOR, #0F4C83);
+  background: var(--Grays-White, #FFF);
+  border: 1px solid blue;  
+}
+
+
+.conteudo-comentario{
+  width: 370px;
+  height: 146px;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
