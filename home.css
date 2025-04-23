@@ -574,7 +574,7 @@ main {
 .container-comentarios {
   display: flex;
   width: 1312px;
-  height: 334px;
+  height: 454px;
   overflow: hidden;
   padding: 10px;
   justify-content: space-between;
@@ -660,6 +660,7 @@ main {
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
+<<<<<<< HEAD
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 1.92px;
@@ -753,4 +754,8 @@ main {
   line-height: 100%;
   paragraph-spacing: 5px;
   letter-spacing: 0%;
+=======
+  font-weight: 400;
+  line-height: normal;
+>>>>>>> c452a98b7ab3488cf43671fa84ad9c34ce17be09
 }
