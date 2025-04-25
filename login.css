@@ -1,0 +1,108 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+
+.container-barratotal-menu {
+  display: flex;
+  width: 1312px;
+  height: 80px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  left: 64px;
+  background: #FFF;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+  border: 1px solid blue;
+}
+
+.titulo-login {
+  width: 1234px;
+  height: 36 px;
+  flex: 1 0 0;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+
+}
+
+.container-emoji-admin {
+  width: 18px;
+  height: 16px;
+}
+
+.container-painel-de-acesso {
+  width: 1440px;
+  height: 488px;
+  display: flex;
+  padding: 60px 170px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  align-self: stretch;
+  bottom: 60px;
+  left: 170px;
+  border: 1px solid blue;
+}
+
+.container-titulo-acesso {
+  width: 520px;
+  height: 48px;
+  color: var(--PrimeiraCOR, #0F4C83);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+
+}
+
+.container-texto-acesso {
+  width: 520px;
+  height: 24px;
+  color: var(--PrimeiraCOR, #0F4C83);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.container-acesso-interativo-login {
+  width: 520px;
+  height: 36px;
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: #FFF;
+  border alignment: inside;
+  bottom: 8px;
+  left: 12px;
+}
+
+.container-botao-login {
+  display: flex;
+  height: 48px;
+  width: 240px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--PrimeiraCOR, #0F4C83);
+}
+
