@@ -9,58 +9,94 @@
 }
 
 .container-barra-inicio {
-  display: flex;
-  width: 1312px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 80px;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  position: absolute;
-  left: 64px;
   background: #FFF;
-  border: 1px solid #134BC3;
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid #134BC3;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 1000;
+}
+
+.container-logo img {
+  height: 60px;
 }
 
 .container-espaco-navegacao {
-  width: 531px;
-  height: 36px;
   display: flex;
+  gap: 40px;
   justify-content: center;
   align-items: center;
-  gap: 40px;
 }
 
-.container-menu-navegacao p {
-  width: 51px;
-  heigth: 20px;
+.container-menu-navegacao {
   color: #134BC3;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 1.92px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
 }
 
 .container-menu-pesquisa {
-  height: 36px;
   display: flex;
-  width: 200px;
-  padding: 8px;
-  justify-content: flex-end;
   align-items: center;
-  gap: 4px;
+}
+
+.input-pesquisa {
+  width: 200px;
+  height: 36px;
+  padding: 8px;
+  border: 1px solid #134BC3;
   border-radius: 6px;
-  
 }
 
-.container-logo {
-  width: 88px;
-  height: 72px;
-  flex-shrink: 0;
-  border-radius: 17px;
-  background: url(<path-to-image>) lightgray -18.009px -27.954px / 140% 179.417% no-repeat;
-
+.container-pagina-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px; 
+  min-height: 100vh;
+  background: #FFF;
 }
+
+
+.container-acesso-opcoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px); 
+}
+
+.container-opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.opcoes-botao {
+  width: 273px;
+  height: 67px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #0F4C83 0%, #03111D 100%);
+  color: #FFF;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.opcoes-botao:hover {
+  background: linear-gradient(180deg, #146AB8 0%, #052033 100%);
+}
+
