@@ -11,10 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
-  border: 1px solid blue;
-  /* Adicionei uma borda azul para visualizar o contêiner */
-
-}
+ }
 
 .container-logoMenu {
   display: flex;
@@ -22,7 +19,6 @@ header {
   height: 72px;
   align-items: center;
   gap: 16px;
-
 }
 
 .title-logo {
@@ -44,7 +40,6 @@ header {
   padding: 0px 10px;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .container-menu-texto {
@@ -153,7 +148,6 @@ main {
   align-items: center;
   gap: 10px;
   margin-bottom: 40px;
-  border: 1px solid blue;
 }
 
 .container-banner-img {
@@ -171,7 +165,6 @@ main {
 .img-banner {
   width: 1312px;
   height: 369px;
-
 }
 
 .container-sobreTerapia {
@@ -183,9 +176,7 @@ main {
   width: 1312px;
   height: 606px;
   border-top-width: 1px;
-  border: 1px solid blue;
   margin-bottom: 40px;
-
 }
 
 .container-titulo-terapia {
@@ -198,8 +189,7 @@ main {
   font-weight: 400px;
   line-height: normal;
   text-align: center;
-
-
+  margin-bottom: 40px;
 }
 
 .titulo-terapia {
@@ -212,7 +202,6 @@ main {
   font-weight: 400px;
   line-height: normal;
   text-align: center;
-
 }
 
 
@@ -223,7 +212,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 107px;
-
 }
 
 
@@ -286,7 +274,6 @@ main {
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
-  border: 1px solid blue;
   margin-bottom: 40px;
 }
 
@@ -478,7 +465,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 550px;
-  border: 1px solid blue;
   margin-bottom: 40px;
 }
 
@@ -534,10 +520,10 @@ main {
   border-radius: 3px;
   border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 40px;
-  border: 1px solid blue;
+  
 }
 
 .container-titulo-meusPacientes {
@@ -547,17 +533,15 @@ main {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border: 1px solid blue;
 }
 
 .titulo-meusPacientes {
   display: flex;
-  width: 1302px;
+  width: 1312px;
   height: 97px;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border: 1px solid blue;
 }
 
 .titulo-paciente {
@@ -571,6 +555,65 @@ main {
   line-height: normal;
 }
 
+.container-comentariosCaixa{
+  display: flex;
+  width: 1312px;
+  height: 532px;
+  overflow: hidden;
+  border-radius: 3px;
+  flex-direction: row;
+  border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  padding: 10px;
+}
+
+.caixa1{
+  display: flex;
+  width: 402px;
+  overflow: hidden;
+  padding: 153.5px 21.398px 30px 21.602px;
+  border-radius: 60px;
+  border: 1px solid var(--PrimeiraCOR, #0F4C83);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: var(--Grays-White, #FFF);
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 68.5px;
+}
+
+
+.text-comentarioCaixa{
+ width: 359px;
+ height: 120px;
+ color: var(--PrimeiraCOR, #0F4C83);
+ font-family: Inter;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+.containerPessoa{
+  display: inline-flex;
+  overflow: hidden;
+  padding: 11px 21px;
+  border-radius: 10px;
+  background: #0F4C83;
+  justify-content: center;
+  align-items: center;
+}
+
+.nomePessoa{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 
 .container-terapia-online {
@@ -584,7 +627,6 @@ main {
   border-top: 1px solid #0F4C83;
   background: rgba(19, 75, 195, 0.05);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .container-titulo-terapia-online {
@@ -593,7 +635,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .titulo-terapia-online {
@@ -613,7 +654,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 
@@ -625,7 +665,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  flex-shrink: 0;
   width: 567;
   height: 516;
   border-radius: 50px;
@@ -641,7 +680,6 @@ main {
 .texto-terapia-online {
   height: 360px;
   width: 545px;
-  flex-shrink: 0;
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: Inter;
   font-size: 16px;
@@ -659,13 +697,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
   border-radius: 50px;
   padding-top: 20px;
   padding-right: Space/100;
   padding-bottom: 20px;
   padding-left: Space/100;
-
 }
 
 .img-terapia-online {
@@ -679,11 +715,12 @@ main {
   display: flex;
   width: 100%; 
   max-width: 1312px; 
-  height: auto; 
+  height: 546px; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
+  margin-bottom: 40px;
 }
 
 .container-titulo-duvidas {
@@ -743,5 +780,106 @@ main {
   letter-spacing: 0%;
 }
 
+.containerFooter{
+  display: flex;
+  width: 1312px;
+  height: 297px;
+  overflow: hidden;
+  padding: 5px 62px;
+  background: #0F4C83;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 99px;
+  flex-wrap: wrap;
+  border: 1px solid blue;
+}
+
+.footer{
+  display: flex;
+  width: 1316px;
+  padding: 48px 80px;
+  background: #0F4C83;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+}
+
+.containerLogo{
+  display: flex;
+  width: 222px;
+  align-items: center;
+  gap: 16px;
+}
+
+.logoFooter{
+  width: 88px;
+  height: 72px;
+  border-radius: 17px;
+  background: url(<path-to-image>) lightgray -18.009px -27.954px / 140% 179.417% no-repeat;
+}
+
+.nomeLogo{
+  width: 119px;
+  color: #FFF;
+  font-family: "Inria Serif";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 2.42px;
+}
+
+.menuFooter{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.menu-item{
+  display: flex;
+  padding: 12px 8px;
+ align-items: center;
+ gap: 8px;
+}
+
+.text-item{
+  color: var(--Default-White, #FFFF);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
 
 
+.direitos-footer{
+  border-top:1px solid white ;
+  display: flex;
+  width: 100%;
+  padding: 48px 80px;
+  background: #0F4C83;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.text-direito{
+   color: var(--Default-White, #FFF);
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 140%;
+}
