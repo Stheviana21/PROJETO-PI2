@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Psicóloga Ana Vitória - Atendimento psicológico online. Agende sua consulta!">
-    <meta author="Ana Julia Ferreira & Sthephany Viana">
+    <meta name="author" content="Ana Julia Ferreira & Sthephany Viana">
     <title>Psicóloga Ana Vitória</title>
-    <link rel="icon" type="image/png" href="assets/logoPrincp.png">
+    <link rel="icon" type="image/png" href="../assets/logoPrincp.png">
     <link rel="stylesheet" href="../style/home.css">
     <link rel="stylesheet" href="../style/reset.css">
 </head>
@@ -17,22 +17,22 @@
         <section class="container-barraMenu">
 
             <div class="container-logoMenu">
-                <img src="../assets/logoPrincp.png" alt="Logo Psicóloga Ana Vitória!">
+                <img src="../assets/logoPrincp.png" alt="Logotipo da Psicóloga Ana Vitória com uma borboleta">
                 <h1 class="title-logo"> Ana Vitória Psicóloga</h1>
             </div>
 
             <nav class="container-menu">
-                <spam class="container-menu-texto-inicio"><a href="Inicio.html">Inicio</a></spam>
-                <spam class="container-menu-texto-sobre-mim"><a href="SobreMim.html">Sobre Mim</a></spam>
-                <spam class="container-menu-texto"><a href="SobreTerapia.html">SobreTerapia</a></spam>
-                <spam class="container-menu-texto"><a href="Depoimentos.html">Depoimentos</a></spam>
-                <spam class="container-menu-texto"><a href="Duvidas.html">Dúvidas</a></spam>
+                <span class="container-menu-texto-inicio"><a href="inicio.html">Início</a></span>
+                <span class="container-menu-texto-sobre-mim"><a href="#sobreMim">Sobre Mim</a></span>
+                <span class="container-menu-texto"><a href="#sobreTerapia">SobreTerapia</a></span>
+                <span class="container-menu-texto"><a href="#depoimentos">Depoimentos</a></span>
+                <span class="container-menu-texto"><a href="#duvidas">Dúvidas</a></span>
             </nav>
 
 
             <div class="container-area-login">
                 <img class="icon-login-user " src="../assets/usuario.png" alt="Usuario">
-                <button class="btn-login-user" type="button">Login</button>
+                <a href="../pages/login.html"><button class="btn-login-user" type="button">Login</button></a>
             </div>
 
         </section>
@@ -48,7 +48,7 @@
 
         </section>
 
-        <section class="container-sobreTerapia">
+        <section id="sobreTerapia" class="container-sobreTerapia">
 
             <div class="container-titulo-terapia">
                 <h1 class="titulo-terapia">Autocuidado</h1>
@@ -71,7 +71,7 @@
 
         </section>
 
-        <section class="container-sobreMim">
+        <section id="sobreMim" class="container-sobreMim">
 
             <div class="container-quemSou">
                 <div class="container-titulo-quemSou">
@@ -134,11 +134,11 @@
             </div>
         </section>
 
-        <section class="container-meusPacientes">
+        <section id="depoimentos" class="container-meusPacientes">
             <div class="container-titulo-meusPacientes">
                 <div class="titulo-meusPacientes">
                     <p class="titulo-paciente">Meus Pacientes</p>
-                    <img class="Img-Borbolete" src="../assets/borboleta.png" alt="icone de Borboleta">
+                    <img class="Img-Borboleta" src="../assets/borboleta.png" alt="">
                 </div>
             </div>
             <div class="container-comentariosCaixa">
@@ -172,7 +172,7 @@
         </section>
 
 
-        <section class="container-terapia-online">
+        <section id="terapiaOnline" class="container-terapia-online">
             <div class="container-titulo-terapia-online">
                 <h1 class="titulo-terapia-online">Terapia Online</h1>
             </div>
@@ -208,7 +208,7 @@
         </section>
 
 
-        <section class="container-sessao-duvidas">
+        <section id="duvidas" class="container-sessao-duvidas">
 
             <div class="container-titulo-duvidas">
                 <h1 class="text-duvidas">Dúvidas</h1>
@@ -239,35 +239,34 @@
                 <div class="footer-top">
                     <div class="containerLogo">
                         <img class="logoFooter" src="../assets/logoPrincp.png" alt="Logo Psicóloga Ana Vitória!">
-                        <p class="nomeLogo">Ana Vitoria Psicóloga</p>
+                        <p class="nomeLogo">Ana Vitória Psicóloga</p>
                     </div>
                     <div class="menuFooter">
                         <div class="menu-item">
-                            <p class="text-item">Inicio</p>
+                            <a href="#inicio"><p class="text-item">Início</p></a>
                         </div>
                         <div class="menu-item">
-                            <p class="text-item">Sobre mim</p>
+                            <a href="#sobreMim"><p class="text-item">Sobre mim</p></a>
                         </div>
                         <div class="menu-item">
-                            <p class="text-item">Sobre Terapia</p>
+                            <a href="#sobreTerapia"><p class="text-item">Sobre Terapia</p></a>
                         </div>
                         <div class="menu-item">
-                            <p class="text-item">Depoimentos</p>
+                            <a href="#depoimentos"><p class="text-item">Depoimentos</p></a>
                         </div>
                         <div class="menu-item">
-                            <p class="text-item">Dúvidas</p>
+                            <a href="#duvidas"><p class="text-item">Dúvidas</p></a>
                         </div>
                     </div>
-  
                 </div>
-
+        
                 <div class="direitos-footer">
-                    <p class="text-direito">© 2025 Psicóloga Ana Vitória. Todos os direitos reservados. - Feito por Ana Julia Ferreira e Sthephany Viana</p>
+                    <p class="text-direito">© 2025 Psicóloga Ana Vitória. Todos os direitos reservados. - Feito por Ana
+                        Julia Ferreira e Sthephany Viana</p>
                 </div>
-                
+        
             </div>
-
-        </section>
+        </section>        
 
     </main>
 
