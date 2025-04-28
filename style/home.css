@@ -10,12 +10,13 @@ html {
 
 .container-barraMenu {
   display: flex;
-  width: 1312px;
+  width: 100%;
+  max-width: 1312px;
   padding: 2px 14px;
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
- }
+}
 
 .container-logoMenu {
   display: flex;
@@ -142,7 +143,7 @@ main {
 
 .container-banner {
   display: flex;
-  width: 1312px;
+  width: 100%;
   height: 372px;
   overflow: hidden;
   padding: 0px 2px;
@@ -161,7 +162,7 @@ main {
   overflow: hidden;
   padding: 10px 0px 16px 0px;
   border-radius: 5px;
-  background: url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat;
+  /* background: url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat; */
   justify-content: center;
   align-items: center;
 }
@@ -177,8 +178,9 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 1312px;
-  height: 606px;
+  width: 100%;
+  max-width: 1312px;
+  height: auto;
   border-top-width: 1px;
   margin-bottom: 40px;
 }
@@ -211,11 +213,10 @@ main {
 
 .container-text-img {
   display: flex;
-  width: 1302px;
-  height: 563px;
+  width: 100%;
+  height: auto;
   justify-content: center;
   align-items: center;
-  gap: 107px;
 }
 
 
@@ -263,13 +264,14 @@ main {
   width: 537.626px;
   height: 510.834px;
   border-radius: 50px;
-  background: url(<path-to-image>) lightgray -161.709px -31.704px / 160.157% 112.413% no-repeat;
+  /* background: url(../assets/autocuidado.png) lightgray -161.709px -31.704px / 160.157% 112.413% no-repeat; */
   aspect-ratio: 537.63/510.83;
 }
 
 .container-sobreMim {
-  width: 1312px;
-  height: 610px;
+  width: 100%;
+  max-width: 1312px;
+  height: auto;
   display: flex;
   overflow: hidden;
   padding: 30px 30px 30px 30px;
@@ -398,7 +400,7 @@ main {
   border-radius: 167.797px;
   border: 1px solid #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background: url(<path-to-image>) lightgray -85.84px -239.176px / 166.991% 289.957% no-repeat;
+  /* background: url(../assets/imgAna.png) lightgray -85.84px -239.176px / 166.991% 289.957% no-repeat; */
   aspect-ratio: 1/1;
 }
 
@@ -460,7 +462,8 @@ main {
 
 .container-faixa {
   display: flex;
-  width: 1312px;
+  width: 100%;
+  max-width: 1311px;
   height: 64px;
   overflow: hidden;
   padding: 0px 39px;
@@ -518,8 +521,9 @@ main {
 
 .container-meusPacientes {
   display: flex;
-  width: 1312px;
-  height: 532px;
+  width: 100%;
+  max-width: 1312px;
+  height: auto;
   overflow: hidden;
   border-radius: 3px;
   border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
@@ -527,7 +531,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 40px;
-  
+
 }
 
 .container-titulo-meusPacientes {
@@ -559,9 +563,10 @@ main {
   line-height: normal;
 }
 
-.container-comentariosCaixa{
+.container-comentariosCaixa {
   display: flex;
-  width: 1312px;
+  width: 100%;
+  max-width: 1312px;
   height: 532px;
   overflow: hidden;
   border-radius: 3px;
@@ -573,7 +578,7 @@ main {
   padding: 10px;
 }
 
-.caixa1{
+.caixa1 {
   display: flex;
   width: 402px;
   overflow: hidden;
@@ -589,18 +594,18 @@ main {
 }
 
 
-.text-comentarioCaixa{
- width: 359px;
- height: 120px;
- color: var(--PrimeiraCOR, #0F4C83);
- font-family: Inter;
- font-size: 16px;
- font-style: normal;
- font-weight: 400;
- line-height: normal;
+.text-comentarioCaixa {
+  width: 359px;
+  height: 120px;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.containerPessoa{
+.containerPessoa {
   display: inline-flex;
   overflow: hidden;
   padding: 11px 21px;
@@ -610,7 +615,7 @@ main {
   align-items: center;
 }
 
-.nomePessoa{
+.nomePessoa {
   color: #FFF;
   font-family: Inter;
   font-size: 16px;
@@ -622,8 +627,9 @@ main {
 
 .container-terapia-online {
   display: flex;
-  width: 1312px;
-  height: 632px;
+  width: 100%;
+  max-width: 1312px;
+  height: auto;
   padding-top: 9px;
   flex-direction: column;
   justify-content: center;
@@ -717,9 +723,9 @@ main {
 
 .container-sessao-duvidas {
   display: flex;
-  width: 100%; 
-  max-width: 1312px; 
-  height: 546px; 
+  width: 100%;
+  max-width: 1312px;
+  height: 546px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -731,17 +737,17 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; 
-  max-width: 276px; 
-  height: auto; 
+  width: 100%;
+  max-width: 276px;
+  height: auto;
   margin-bottom: 20px;
   text-align: center;
   margin-top: 20px;
 }
 
 .text-duvidas {
-  width: auto; 
-  height: auto; 
+  width: auto;
+  height: auto;
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: "Inria Serif";
   font-size: 36px;
@@ -755,14 +761,14 @@ main {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  width: 100%; 
-  max-width: 1302px; 
-  height: auto; 
+  width: 100%;
+  max-width: 1302px;
+  height: auto;
 }
 
 .container-texto-duvidas {
   display: flex;
-  width: 100%; 
+  width: 100%;
   max-width: 1302px;
   padding: 16px;
   flex-direction: column;
@@ -774,19 +780,20 @@ main {
 }
 
 .text-duvidas p {
-  width: 100%; 
+  width: 100%;
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
-  font-weight: 500; 
+  font-weight: 500;
   line-height: 100%;
   letter-spacing: 0%;
 }
 
-.containerFooter{
+.containerFooter {
   display: flex;
-  width: 1312px;
+  width: 100%;
+  max-width: 1312px;
   height: 297px;
   overflow: hidden;
   padding: 5px 62px;
@@ -799,7 +806,7 @@ main {
   border: 1px solid blue;
 }
 
-.footer{
+.footer {
   display: flex;
   width: 1316px;
   padding: 48px 80px;
@@ -810,28 +817,28 @@ main {
   gap: 48px;
 }
 
-.footer-top{
+.footer-top {
   display: flex;
   align-items: center;
   gap: 48px;
   align-self: stretch;
 }
 
-.containerLogo{
+.containerLogo {
   display: flex;
   width: 222px;
   align-items: center;
   gap: 16px;
 }
 
-.logoFooter{
+.logoFooter {
   width: 88px;
   height: 72px;
   border-radius: 17px;
-  background: url(<path-to-image>) lightgray -18.009px -27.954px / 140% 179.417% no-repeat;
+  /* background: url(../assets/logoPrincp.png) lightgray -18.009px -27.954px / 140% 179.417% no-repeat; */
 }
 
-.nomeLogo{
+.nomeLogo {
   width: 119px;
   color: #FFF;
   font-family: "Inria Serif";
@@ -842,7 +849,7 @@ main {
   letter-spacing: 2.42px;
 }
 
-.menuFooter{
+.menuFooter {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -850,14 +857,14 @@ main {
   flex: 1 0 0;
 }
 
-.menu-item{
+.menu-item {
   display: flex;
   padding: 12px 8px;
- align-items: center;
- gap: 8px;
+  align-items: center;
+  gap: 8px;
 }
 
-.text-item{
+.text-item {
   color: var(--Default-White, #FFFF);
   font-family: Roboto;
   font-size: 16px;
@@ -867,8 +874,8 @@ main {
 }
 
 
-.direitos-footer{
-  border-top:1px solid white ;
+.direitos-footer {
+  border-top: 1px solid white;
   display: flex;
   width: 100%;
   padding: 48px 80px;
@@ -879,11 +886,13 @@ main {
   gap: 48px;
 }
 
-.text-direito{
-   color: var(--Default-White, #FFF);
-   font-family: Roboto;
-   font-size: 14px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 140%;
+.text-direito {
+  color: var(--Default-White, #FFF);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
 }
+
+
