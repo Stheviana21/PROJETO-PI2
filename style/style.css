@@ -1,3 +1,5 @@
+/* <!-- Início do cabeçalho (Header) --> */
+
 header {
   display: flex;
   justify-content: center;
@@ -77,26 +79,9 @@ html {
   gap: 10px;
 }
 
-.container-menu-texto a {
-  color: var(--PrimeiraCOR, #0F4C83);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Inria Serif";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 
-.container-menu-texto-sobre-mim a {
-  color: var(--PrimeiraCOR, #0F4C83);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Inria Serif";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
+.container-menu-texto a,
+.container-menu-texto-sobre-mim a,
 .container-menu-texto-inicio a {
   color: var(--PrimeiraCOR, #0F4C83);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -134,12 +119,17 @@ html {
   height: 33px;
 }
 
+
+/* <!-- Início do conteúdo principal (Main) --> */
+
 main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
+/* <!-- Seção Banner --> */
 
 .container-banner {
   display: flex;
@@ -172,6 +162,8 @@ main {
   height: 369px;
 }
 
+/* <!-- Seção Sobre Terapia --> */
+
 .container-sobreTerapia {
   display: flex;
   overflow: hidden;
@@ -200,7 +192,6 @@ main {
 
 .titulo-terapia {
   width: 1302px;
-  flex-shrink: 0;
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: "Inria Serif";
   font-size: 36px;
@@ -237,7 +228,6 @@ main {
 .text-terapia {
   width: 567px;
   height: 240px;
-  flex-shrink: 0;
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: Inter;
   font-size: 16px;
@@ -267,6 +257,8 @@ main {
   /* background: url(../assets/autocuidado.png) lightgray -161.709px -31.704px / 160.157% 112.413% no-repeat; */
   aspect-ratio: 537.63/510.83;
 }
+
+/* <!-- Seção Sobre Mim --> */
 
 .container-sobreMim {
   width: 100%;
@@ -460,6 +452,8 @@ main {
   letter-spacing: 1.92px;
 }
 
+/* <!-- Seção Faixa de Chamada para Ação (CTA) --> */
+
 .container-faixa {
   display: flex;
   width: 100%;
@@ -483,12 +477,11 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 1px solid black;
 }
 
 .text-cta {
   width: 498px;
-  height: 44px;
+  height: 37px;
   color: var(--BegeFundo, #D9D9D9);
   font-family: Inter;
   font-size: 26px;
@@ -518,6 +511,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+/* <!-- Seção Depoimentos --> */
 
 .container-meusPacientes {
   display: flex;
@@ -624,6 +619,7 @@ main {
   line-height: normal;
 }
 
+/* <!-- Seção Terapia Online --> */
 
 .container-terapia-online {
   display: flex;
@@ -721,16 +717,18 @@ main {
   border-radius: 50px;
 }
 
+/* <!-- Seção Dúvidas Frequentes --> */
 .container-sessao-duvidas {
   display: flex;
-  width: 100%;
-  max-width: 1312px;
-  height: 546px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
+  width: 100%;
+  max-width: 1312px;
+  height: auto; 
+  margin: 40px auto;
   margin-bottom: 40px;
+  border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
 }
 
 .container-titulo-duvidas {
@@ -740,55 +738,86 @@ main {
   width: 100%;
   max-width: 276px;
   height: auto;
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .text-duvidas {
   width: auto;
   height: auto;
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: "Inria Serif";
-  font-size: 36px;
+  font-family: "Inria Serif", serif;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.container-topico-duvidas {
+
+.accordion-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
   width: 100%;
   max-width: 1302px;
-  height: auto;
 }
 
-.container-texto-duvidas {
-  display: flex;
-  width: 100%;
-  max-width: 1302px;
-  padding: 16px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  align-self: stretch;
+
+.accordion-item {
+  margin-bottom: 10px;
   border: 1px solid var(--CoolGray-20, #DDE1E6);
+  border-radius: 5px;
+  overflow: hidden;
   background: var(--Default-White, #FFF);
 }
 
-.text-duvidas p {
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  color: var(--PrimeiraCOR, #0F4C83);
-  font-family: Inter;
+  padding: 16px;
+  background-color: var(--Default-White, #FFF);
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 100%;
-  letter-spacing: 0%;
+  color: var(--PrimeiraCOR, #0F4C83);
+  border-bottom: 1px solid var(--CoolGray-20, #DDE1E6);
+  transition: background-color 0.3s ease;
 }
+
+.accordion-header:hover {
+  background-color: #f1f1f1;
+}
+
+.accordion-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  display: none;
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #333;
+  background-color: var(--Default-White, #FFF);
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+/* <!-- Seção Footer --> */
 
 .containerFooter {
   display: flex;
@@ -880,7 +909,7 @@ main {
   width: 100%;
   padding: 48px 80px;
   background: #0F4C83;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 48px;
@@ -895,4 +924,15 @@ main {
   line-height: 140%;
 }
 
+.socialicons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
 
+.icon-instagram,.icon-whatsapp{
+width: 24px;
+height: 24px;
+}

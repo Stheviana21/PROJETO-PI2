@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- Início do cabeçalho (Header) -->
     <header>
         <section class="container-barraMenu">
 
@@ -22,9 +23,9 @@
             </div>
 
             <nav class="container-menu">
-                <span class="container-menu-texto-inicio"><a href="inicio.html">Início</a></span>
-                <span class="container-menu-texto-sobre-mim"><a href="#sobreMim">Sobre Mim</a></span>
+                <span class="container-menu-texto-inicio"><a href="#">Início</a></span>
                 <span class="container-menu-texto"><a href="#sobreTerapia">SobreTerapia</a></span>
+                <span class="container-menu-texto-sobre-mim"><a href="#sobreMim">Sobre Mim</a></span>
                 <span class="container-menu-texto"><a href="#depoimentos">Depoimentos</a></span>
                 <span class="container-menu-texto"><a href="#duvidas">Dúvidas</a></span>
             </nav>
@@ -32,13 +33,16 @@
 
             <div class="container-area-login">
                 <img class="icon-login-user " src="../assets/usuario.png" alt="Usuario">
-                <a href="../pages/login.html"><button class="btn-login-user" type="button">Login</button></a>
+                <a href="../docs/login.html"><button class="btn-login-user" type="button">Login</button></a>
             </div>
 
         </section>
     </header>
 
+
+    <!-- Início do conteúdo principal (Main) -->
     <main>
+        <!-- Seção Banner -->
         <section class="container-banner">
 
             <div class="container-banner-img">
@@ -48,6 +52,8 @@
 
         </section>
 
+        <!-- Seção Sobre Terapia -->
+         
         <section id="sobreTerapia" class="container-sobreTerapia">
 
             <div class="container-titulo-terapia">
@@ -71,6 +77,7 @@
 
         </section>
 
+        <!-- Seção Sobre Mim -->
         <section id="sobreMim" class="container-sobreMim">
 
             <div class="container-quemSou">
@@ -113,7 +120,7 @@
                             <p class="text-segCuriosidade">Formada em Psicologia e Recursos Humanos</p>
                         </div>
                         <div class="container-segCuriosidade">
-                            <p class="text-segCuriosidade">Apaixonada por compreender pessoas e historias</p>
+                            <p class="text-segCuriosidade">Apaixonada por compreender pessoas e histórias</p>
                         </div>
                         <div class="container-priCuriosidade">
                             <p class="text-priCuriosidade">Apaixonada por gatos</p>
@@ -125,6 +132,7 @@
 
         </section>
 
+        <!-- Seção Faixa de Chamada para Ação (CTA) -->
         <section class="container-faixa">
             <div class="container-text-faixa">
                 <p class="text-cta">Agende a sua consulta online </p>
@@ -133,6 +141,8 @@
                 <img class="img-whatsApp" src="../assets/WhatsApp.svg" alt="icone do WhatsApp">
             </div>
         </section>
+
+        <!-- Seção Depoimentos -->
 
         <section id="depoimentos" class="container-meusPacientes">
             <div class="container-titulo-meusPacientes">
@@ -168,11 +178,12 @@
                 </div>
             </div>
 
-
         </section>
 
+        <!-- Seção Terapia Online -->
 
         <section id="terapiaOnline" class="container-terapia-online">
+
             <div class="container-titulo-terapia-online">
                 <h1 class="titulo-terapia-online">Terapia Online</h1>
             </div>
@@ -205,8 +216,10 @@
                         alt="imagem de terapia online">
                 </div>
             </div>
+
         </section>
 
+        <!-- Seção Dúvidas Frequentes -->
 
         <section id="duvidas" class="container-sessao-duvidas">
 
@@ -214,27 +227,75 @@
                 <h1 class="text-duvidas">Dúvidas</h1>
             </div>
 
-            <div class="container-topico-duvidas">
-                <div class="container-texto-duvidas">
-                    <p class="text-duvidas">O que devo esperar da primeira sessão?</p>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p class="text-duvidas">O que devo esperar da primeira sessão?</p>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>A primeira sessão é um espaço de acolhimento, onde você poderá compartilhar, no seu tempo, o
+                            que considera importante. Não é necessário falar sobre tudo de uma vez. O objetivo inicial é
+                            construirmos juntos uma relação de confiança e compreensão.</p>
+                    </div>
                 </div>
-                <div class="container-texto-duvidas">
-                    <p class="text-duvidas">A terapia online é segura para tratar questões pessoais?</p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p class="text-duvidas">A terapia online é segura para tratar questões pessoais?</p>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Sim. Utilizo plataformas seguras e criptografadas para garantir o sigilo e a privacidade de
+                            todas as informações compartilhadas. O Código de Ética da Psicologia também assegura a
+                            confidencialidade das sessões, seja no atendimento presencial ou online.</p>
+                    </div>
                 </div>
-                <div class="container-texto-duvidas">
-                    <p class="text-duvidas">Preciso instalar algum aplicativo para realizar a consulta?</p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p class="text-duvidas">Preciso instalar algum aplicativo para realizar a consulta?</p>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>As sessões são realizadas por videoconferência, e você não precisa se preocupar — antes da
+                            primeira sessão, envio todas as instruções necessárias. Utilizo plataformas de fácil acesso,
+                            que funcionam tanto em computadores quanto em celulares.</p>
+                    </div>
                 </div>
-                <div class="container-texto-duvidas">
-                    <p class="text-duvidas">Como é feito o pagamento das sessões?</p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p class="text-duvidas">Como é feito o pagamento das sessões?</p>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>O pagamento é realizado de forma antecipada por meio de transferência bancária, Pix ou outras
+                            formas combinadas previamente. Todas as informações são compartilhadas de forma clara no
+                            momento do agendamento.</p>
+                    </div>
                 </div>
-                <div class="container-texto-duvidas">
-                    <p class="text-duvidas">Atendimentos online são cobertos por planos de saúde?</p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p class="text-duvidas">Atendimentos online são cobertos por planos de saúde?</p>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Atendo de forma particular. No entanto, caso o seu plano de saúde ofereça reembolso para
+                            sessões com psicólogos, posso fornecer o recibo com os dados necessários para que você
+                            solicite esse reembolso junto ao seu convênio.</p>
+                    </div>
                 </div>
             </div>
 
         </section>
 
+
+        <!-- Seção Rodapé -->
+
         <section class="containerFooter">
+
             <div class="footer">
                 <div class="footer-top">
                     <div class="containerLogo">
@@ -243,32 +304,57 @@
                     </div>
                     <div class="menuFooter">
                         <div class="menu-item">
-                            <a href="#inicio"><p class="text-item">Início</p></a>
+                            <a href="#">
+                                <p class="text-item">Início</p>
+                            </a>
                         </div>
                         <div class="menu-item">
-                            <a href="#sobreMim"><p class="text-item">Sobre mim</p></a>
+                            <a href="#sobreMim">
+                                <p class="text-item">Sobre mim</p>
+                            </a>
                         </div>
                         <div class="menu-item">
-                            <a href="#sobreTerapia"><p class="text-item">Sobre Terapia</p></a>
+                            <a href="#sobreTerapia">
+                                <p class="text-item">Sobre Terapia</p>
+                            </a>
                         </div>
                         <div class="menu-item">
-                            <a href="#depoimentos"><p class="text-item">Depoimentos</p></a>
+                            <a href="#depoimentos">
+                                <p class="text-item">Depoimentos</p>
+                            </a>
                         </div>
                         <div class="menu-item">
-                            <a href="#duvidas"><p class="text-item">Dúvidas</p></a>
+                            <a href="#duvidas">
+                                <p class="text-item">Dúvidas</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="direitos-footer">
                     <p class="text-direito">© 2025 Psicóloga Ana Vitória. Todos os direitos reservados. - Feito por Ana
                         Julia Ferreira e Sthephany Viana</p>
+
+                    <div class="socialicons">
+                        <a href="https://www.instagram.com/psicologa.anavi/?igsh=MWU1c290cW9oYnlrNg%3D%3D#"
+                            target="_blank">
+                            <img class="icon-instagram" src="../assets/icon-instagram.svg" alt="Ícone do Instagram">
+                        </a>
+
+                        <a href="https://api.whatsapp.com/send/?phone=5511978958874&text&type=phone_number&app_absent=0"
+                            target="_blank">
+                            <img class="icon-whatsapp" src="../assets/icon-whatsapp.svg" alt="Ícone do WhatsApp">
+                        </a>
+                    </div>
                 </div>
-        
+
             </div>
-        </section>        
+
+        </section>
 
     </main>
+
+    <script src="../js/script.js"></script>
 
 </body>
 
