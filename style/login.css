@@ -44,7 +44,7 @@ main {
 .titulo-login {
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: "Inria Serif", serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 500;
   margin-right: 12px;
   line-height: 36px;
