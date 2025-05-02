@@ -2,8 +2,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px; 
 }
-
 
 .container-barratotal-menu {
   position: fixed;
@@ -11,28 +11,28 @@ main {
   left: 0;
   z-index: 1000;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between; /
   align-items: center;
   padding: 20px;
   background: #FFF;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
-  border: 1px solid blue;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
   width: 100%;
+  box-sizing: border-box;
 }
 
-.titulo-login {
-  color: var(--PrimeiraCOR, #0F4C83);
-  font-size: 28px;
-  font-weight: 500;
-  margin-right: 12px;
+.conteudo-login-com-icone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
+
 
 .container-emoji-admin {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 .container-emoji-admin img {
@@ -41,84 +41,52 @@ main {
   border-radius: 10%;
 }
 
-/*espaço*/
-.container-painel-de-acesso {
-  margin-top: 100px;
-}
-
 .titulo-login {
-  width: 1234px;
-  height: 36 px;
-  flex: 1 0 0;
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: Roboto;
-  font-size: 28px;
-  font-style: normal;
+  font-family: "Inria Serif", serif;
+  font-size: 26px;
   font-weight: 500;
+  margin-right: 12px;
   line-height: 36px;
-
 }
 
 .container-painel-de-acesso {
-  width: 1440px;
-  height: 488px;
+  max-width: 600px;
+  width: 100%;
   display: flex;
-  padding: 60px 170px;
+  padding: 60px 20px;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  bottom: 60px;
-  left: 170px;
-  border: 1px solid blue;
+  gap: 30px;
   flex-direction: column;
+  margin-top: 140px; 
+  box-sizing: border-box;
 }
 
 .container-titulo-acesso {
-  width: 520px;
-  height: 48px;
-  color: var(--PrimeiraCOR, #0F4C83);
   text-align: center;
-  font-family: Roboto;
-  font-size: 40px;
-  font-style: normal;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: "Inria Serif", serif;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 48px;
-
 }
 
 .container-texto-acesso {
-  width: 520px;
-  height: 24px;
-  color: var(--PrimeiraCOR, #0F4C83);
   text-align: center;
-  font-family: inter;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: "Inria Serif", serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-
 }
 
 .container-acesso-interativo-login {
   width: 100%;
-  max-width: 520px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.input-user-name {
-  width: 100%;
-  padding: 10px 14px;
-  font-size: 16px;
-  border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  background-color: #fff;
-  color: #333;
-  outline: none;
-  transition: border 0.3s ease;
-}
-
+.input-user-name,
 .input-password {
   width: 100%;
   padding: 10px 14px;
@@ -131,11 +99,7 @@ main {
   transition: border 0.3s ease;
 }
 
-.input-user-name:focus {
-  border-color: var(--PrimeiraCOR, #0F4C83);
-  box-shadow: 0 0 0 2px rgba(15, 76, 131, 0.2);
-}
-
+.input-user-name:focus,
 .input-password:focus {
   border-color: var(--PrimeiraCOR, #0F4C83);
   box-shadow: 0 0 0 2px rgba(15, 76, 131, 0.2);
@@ -149,7 +113,8 @@ main {
 }
 
 .botao-login {
-  width: 240px;
+  width: 100%;
+  max-width: 240px;
   height: 48px;
   border: none;
   border-radius: 8px;
