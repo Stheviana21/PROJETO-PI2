@@ -230,11 +230,12 @@ main {
   height: 240px;
   color: var(--PrimeiraCOR, #0F4C83);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 1.92px;
+  border-bottom: 1px solid #0F4C83;
 }
 
 .container-img-autocuidado {
@@ -935,4 +936,18 @@ main {
 .icon-instagram,.icon-whatsapp{
 width: 24px;
 height: 24px;
+}
+
+@media screen and (max-width:1020px){
+  /* header-menu */
+  .container-menu,.container-area-login{
+    display: none;
+  }
+
+  /* sessão banner*/
+  .container-banner{
+  }
+
+  
+
 }
