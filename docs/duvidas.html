@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Psicóloga Ana Vitória - Atendimento psicológico online. Agende sua consulta!"
+    />
+    <meta name="author" content="Ana Julia Ferreira & Sthephany Viana" />
+    <title>Psicóloga Ana Vitória</title>
+    <link rel="icon" type="image/png" href="../assets/logoPrincp.png" />
+    <link rel="stylesheet" href="../style/agenda.css" />
+    <link rel="stylesheet" href="../style/reset.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Psicóloga Ana Vitória - Atendimento psicológico online. Agende sua consulta!" />
-  <meta name="author" content="Ana Julia Ferreira & Sthephany Viana" />
-  <title>Psicóloga Ana Vitória</title>
-  <link rel="icon" type="image/png" href="../assets/logoPrincp.png" />
-  <link rel="stylesheet" href="../style/agenda.css" />
-  <link rel="stylesheet" href="../style/reset.css" />
-</head>
+  <body>
+    <header class="container-barra-inicio">
+      <div class="topBar">
+        <div class="container-logo">
+          <img src="../assets/logoPrincp.png" alt="Logo" class="logo" />
+        </div>
+        <div class="container-titulo-inicio">
+          <h1>Admin</h1>
+        </div>
 
-<body>
-  <header class="container-barra-inicio">
-    <div class="topBar">
-      <div class="container-logo">
-        <img src="../assets/logoPrincp.png" alt="Logo" class="logo" />
+        <nav class="container-espaco-navegacao">
+          <a href="agenda.html" class="container-menu-navegacao">Início</a>
+          <a href="cadastro-paciente.html" class="container-menu-navegacao">Pacientes</a>
+          <a href="agenda.html" class="container-menu-navegacao">Agenda</a>
+        </nav>
+
+        <div class="container-menu-pesquisa">
+          <input type="text" class="input-pesquisa" placeholder="Pesquisar" />
+        </div>
       </div>
-      <div class="container-titulo-inicio">
-        <h1>Admin</h1>
-      </div>
+    </header>
 
-      <nav class="container-espaco-navegacao">
-        <a href="agenda.html" class="container-menu-navegacao">Início</a>
-        <a href="cadastro-paciente.html" class="container-menu-navegacao">Pacientes</a>
-        <a href="agenda.html" class="container-menu-navegacao">Agenda</a>
-      </nav>
-
-      <div class="container-menu-pesquisa">
-        <input type="text" class="input-pesquisa" placeholder="Pesquisar" />
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="container-agendamento">
-      <section class="container-espaco-agendamento">
-        <div class="container-espaco-total-sub">
-          <div class="container-sub-menu">
-            <div class="text-icone">
-              <h2 class="text-agenda-sub">Gerenciamento</h2>
-              <img class="icone-sub-menu" src="../assets/icone-gerenciamento.png" alt="ícone de agenda" />
-            </div>
-            <div class="container-linha-separadora">
+    <main>
+      <section class="container-agendamento">
+        <section class="container-espaco-agendamento">
+          <div class="container-espaco-total-sub">
+            <div class="container-sub-menu">
+              <div class="text-icone">
+                <h2 class="text-agenda-sub">Gerenciamento</h2>
+                <img class="icone-sub-menu" src="../assets/icone-gerenciamento.png" alt="ícone de agenda" />
+              </div>
+              <div class="container-linha-separadora">
+              </div>
             </div>
           </div>
+        </section>
+      </section>
+
+      <section class="container-espaco-formulario">
+        <div class="container-dupla-formulario">
+          <div class="container-texto-solicitacao">
+            <p class="texto-solicitacao">Número de contato</p>
+            <input type="text" class="input-nome" placeholder="Digite um telefone">
+            <p class="texto-obrigatorio">Obrigatório*</p>
+          </div>
+          
+        </div>
+        <div class="container-texto-solicitacao">
+          <p class="texto-solicitacao">dúvida </p>
+          <input type="text" class="input-nome" placeholder="Digite um email">
+          <p class="texto-obrigatorio">Obrigatório*</p>
         </div>
       </section>
 
-    </section>
-  </main>
-</body>
 
+
+    </main>
+  </body>
 </html>
