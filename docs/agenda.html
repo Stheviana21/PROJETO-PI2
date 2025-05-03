@@ -1,43 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Psicóloga Ana Vitória - Atendimento psicológico online. Agende sua consulta!"
-    />
-    <meta name="author" content="Ana Julia Ferreira & Sthephany Viana" />
-    <title>Psicóloga Ana Vitória</title>
-    <link rel="icon" type="image/png" href="../assets/logoPrincp.png" />
-    <link rel="stylesheet" href="../style/agenda.css" />
-    <link rel="stylesheet" href="../style/reset.css" />
-  </head>
 
-  <body>
-    <header class="container-barra-inicio">
-      <div class="topBar">
-        <div class="container-logo">
-          <img src="../assets/logoPrincp.png" alt="Logo" class="logo" />
-        </div>
-        <div class="container-titulo-inicio">
-          <h1>Admin</h1>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Psicóloga Ana Vitória - Atendimento psicológico online. Agende sua consulta!" />
+  <meta name="author" content="Ana Julia Ferreira & Sthephany Viana" />
+  <title>Psicóloga Ana Vitória</title>
+  <link rel="icon" type="image/png" href="../assets/logoPrincp.png" />
+  <link rel="stylesheet" href="../style/agenda.css" />
+  <link rel="stylesheet" href="../style/reset.css" />
+</head>
 
-        <nav class="container-espaco-navegacao">
-          <a href="agenda.html" class="container-menu-navegacao">Início</a>
-          <a href="pacientes.html" class="container-menu-navegacao">Pacientes</a>
-          <a href="agenda.html" class="container-menu-navegacao">Agenda</a>
-        </nav>
+<body>
+  <header class="container-barra-inicio">
+    <div class="topBar">
+      <div class="container-logo">
+        <img src="../assets/logoPrincp.png" alt="Logo" class="logo" />
+      </div>
+      <div class="container-titulo-inicio">
+        <h1>Admin</h1>
+      </div>
 
-        <div class="container-menu-pesquisa">
-          <input type="text" class="input-pesquisa" placeholder="Pesquisar" />
+      <nav class="container-espaco-navegacao">
+        <a href="agenda.html" class="container-menu-navegacao">Início</a>
+        <a href="pacientes.html" class="container-menu-navegacao">Pacientes</a>
+        <a href="agenda.html" class="container-menu-navegacao">Agenda</a>
+      </nav>
+
+      <div class="container-menu-pesquisa">
+        <input type="text" class="input-pesquisa" placeholder="Pesquisar" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container-agendamento"></section>
+  </main>
+
+  <main>
+
+    <section class="container-espaco-agendamento">
+      <div class="container-espaco-total-sub">
+        <div class="container-sub-menu">
+          <div class="text-icone">
+            <h2 class="text-agenda-sub">Minha agenda</h2>
+            <img class="icone-sub-menu" src="../assets/icone-agenda.png" alt="ícone de agenda" />
+          </div>
+          <div class="container-linha-separadora">
+          </div>
         </div>
       </div>
-    </header>
+    </section>
+    
 
-    <main>
-      <section class="container-agendamento"></section>
-    </main>
-  </body>
+
+    <section class="container-espaco-form">
+      <div class="container-espaco-text-form">
+        <div class="container-dupla-formulario">
+          <div class="container-texto-solicitacao">
+            <p class="texto-solicitacao">Nome</p>
+            <input type="text" class="input-nome" placeholder="Digite o nome do paciente">
+            <p class="texto-obrigatorio">Obrigatório*</p>
+          </div>
+          <div class="container-texto-solicitacao">
+            <p class="texto-solicitacao">Data</p>
+            <input type="text" class="input-nome" placeholder="DD/MM/AAAA">
+            <p class="texto-obrigatorio">Obrigatório*</p>
+          </div>
+        </div>
+
+        <div class="container-dupla-formulario">
+          <div class="container-texto-solicitacao">
+            <p class="texto-solicitacao">Plataforma</p>
+            <input type="text" class="input-nome" placeholder="Zoom ou Meet">
+            <p class="texto-obrigatorio">Obrigatório*</p>
+          </div>
+          <div class="container-texto-solicitacao">
+            <p class="texto-solicitacao">Link da reunião</p>
+            <input type="text" class="input-nome" placeholder="Digite o link">
+            <p class="texto-obrigatorio">Obrigatório*</p>
+          </div>
+        </div>
+
+        <section class="container-botoes-envio">
+          <button class="container-estilo-botao-confirmar">Confirmar</button>
+        </section>
+
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
