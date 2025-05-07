@@ -34,8 +34,19 @@ main {
   box-sizing: border-box;
 }
 
+.container-duvidas{
+  display: flex;
+  position: relative;
+  width: 1312px;
+  overflow: hidden;
+  padding: 23px 120px 60px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
 .container-titulo-inicio {
-  flex: 1 0 0;
   color: #2946be;
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -88,6 +99,8 @@ main {
   border: 1px solid #134bc3;
 }
 
+
+
 .container-text-espaco p{
   width: 520px;
   height: 48px;
@@ -100,4 +113,3 @@ main {
   border: 1px solid #134bc3;
   
 }
-
