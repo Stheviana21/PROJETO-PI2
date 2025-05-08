@@ -7,14 +7,12 @@ main {
 
 .container-barra-inicio {
   display: flex;
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  height: auto;
-  padding-top: 80px;
-  background: #fff;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding-top: 80px;
+  background: #fff;
   margin: 0 auto;
 }
 
@@ -24,17 +22,45 @@ main {
   top: 0;
   width: 100vw;
   height: 80px;
-  overflow: hidden;
   padding: 20px 64px;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
   background: #fff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
   justify-content: center;
   align-items: center;
   gap: 20px;
   box-sizing: border-box;
+  z-index: 10;
 }
 
-.container-duvidas{
+.text-icone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+
+.icone-sub-menu {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.text-agenda-sub {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #134bc3;
+  margin: 0;
+  margin-left: auto;
+}
+
+.container-logo img {
+  height: 60px;
+}
+
+.container-duvidas {
   display: flex;
   position: relative;
   width: 1312px;
@@ -55,10 +81,6 @@ main {
   letter-spacing: 1.92px;
 }
 
-.container-logo img {
-  height: 60px;
-}
-
 .container-espaco-navegacao {
   display: flex;
   gap: 40px;
@@ -73,6 +95,7 @@ main {
   font-weight: 500;
   letter-spacing: 1.5px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .container-menu-pesquisa {
@@ -89,19 +112,29 @@ main {
 }
 
 .container-registro-duvidas {
-  width: 1072px;
-  height: 48px;
+  width: 100%;
+  max-width: 1072px;
+  padding: 16px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  align-self: stretch;
-  border: 1px solid #134bc3;
+  box-sizing: border-box;
 }
 
 
+.container-text-espaco {
+  width: 100%;
 
-.container-text-espaco p{
+}
+
+
+.container-text-espaco p {
+  color: #0f4c83;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
   width: 520px;
   height: 48px;
   color: var(--PrimeiraCOR, #0F4C83);
@@ -111,4 +144,135 @@ main {
   font-style: normal;
   font-weight: 700;
   border: 1px solid #134bc3;
+}
+
+.container-espaco-formulario {
+  width: 100%;
+  max-width: 1072px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-dupla-formulario {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container-texto-solicitacao {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.texto-solicitacao {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-nome {
+  padding: 8px;
+  border: 1px solid #134bc3;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.texto-obrigatorio {
+  font-size: 12px;
+  color: #134bc3;
+}
+
+.container-espaco-botao {
+  display: flex;
+  gap: 10px;
+}
+
+.container-estilo-botao {
+  width: 64px;
+  height: 36px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #134bc333;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container-espaco-botao {
+  width: 510px;
+  height: 36px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.container-estilo-botao {
+  display: flex;
+  width: 64px;
+  height: 36px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.container-botoes-envio {
+  display: flex;
+  width: 492px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.container-estilo-botao-apagar {
+  display: flex;
+  width: 240px;
+  height: 48px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #134BC3;
+  color: #134BC3;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+
+.container-estilo-botao-registrar {
+  display: flex;
+  width: 240px;
+  height: 48px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #134BC3;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.container-estilo-botao-registrar:hover {
+  background: #0f3a91;
+}
+
+.container-estilo-botao-apagar:hover {
+  background: #dfe6f0;
 }
