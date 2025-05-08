@@ -5,6 +5,7 @@ main {
   padding: 20px;
 }
 
+
 .container-barra-inicio {
   display: flex;
   position: relative;
@@ -82,7 +83,7 @@ main {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 1px solid #134bc3;
   padding: 20px;
 }
@@ -92,6 +93,56 @@ main {
   align-items: center;
   gap: 20px;
 }
+.container-agendamento {
+ display: flex;
+ width: 1312px;
+ height: 368px;
+ overflow: hidden;
+ padding: 20px 120px 60px 120px;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
+}
+
+.container-espaco-agendamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+
+.container-titulo-agendamento{
+  width: 520px;
+  color: var(--PrimeiraCOR, #0F4C83);
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.pesquisar-pacientes{
+  height: 20px;
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.container-espaco-total-sub {
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
 
 .icone-sub-menu {
   width: 60px;
@@ -100,8 +151,11 @@ main {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+.container-agenda-sub {
+}
+
 .text-agenda-sub {
-  color: var(--PrimeiraCOR, #0F4C83);
+  color: var(--PrimeiraCOR, #0f4c83);
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -114,9 +168,8 @@ main {
   position: absolute;
   bottom: 0px;
   stroke-width: 1px;
-  stroke: #134BC3;
+  stroke: #134bc3;
 }
-
 
 .container-espaco-form {
   display: flex;
@@ -130,7 +183,7 @@ main {
 }
 
 .container-espaco-text-form {
-  width:1072px;
+  width: 1072px;
   height: 248px;
   display: flex;
   flex-direction: column;
@@ -147,7 +200,6 @@ main {
   align-items: flex-start;
   gap: 80px;
   align-self: stretch;
-
 }
 
 .container-texto-solicitacao {
@@ -160,7 +212,6 @@ main {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-
 }
 
 .texto-solicitacao {
@@ -171,7 +222,6 @@ main {
   align-items: center;
   gap: 4px;
   align-self: stretch;
-
 }
 
 .input-nome {
@@ -183,16 +233,15 @@ main {
   gap: 4px;
   align-self: stretch;
   border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  background: #FFF;
-
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
 }
 
 .texto-obrigatorio {
   width: 510px;
   height: 16px;
   align-self: stretch;
-  color: rgba(0, 0, 0, 0.50);
+  color: rgba(0, 0, 0, 0.5);
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -209,8 +258,8 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background: #134BC3;
-  color: #FFF;
+  background: #134bc3;
+  color: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -221,5 +270,3 @@ main {
 .container-estilo-botao-confirmar:hover {
   background: #0f3a91;
 }
-
-
