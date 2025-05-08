@@ -139,6 +139,11 @@ main {
   height: 48px;
   color: var(--PrimeiraCOR, #0F4C83);
   text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  border: 1px solid #134bc3;
 }
 
 .container-espaco-formulario {
