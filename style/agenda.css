@@ -1,3 +1,4 @@
+/* Sessão principal */
 main {
   display: flex;
   flex-direction: column;
@@ -5,7 +6,7 @@ main {
   padding: 20px;
 }
 
-
+/* Header */
 .container-barra-inicio {
   display: flex;
   position: relative;
@@ -35,6 +36,7 @@ main {
   box-sizing: border-box;
 }
 
+/* Sessão menu e navegação */
 .container-titulo-inicio {
   flex: 1 0 0;
   color: #2946be;
@@ -78,6 +80,7 @@ main {
   border-radius: 6px;
 }
 
+/* Sessão submenu */
 .container-sub-menu {
   width: 1072px;
   height: 100px;
@@ -93,6 +96,8 @@ main {
   align-items: center;
   gap: 20px;
 }
+
+/* Sessão agendamento */
 .container-agendamento {
  display: flex;
  width: 1312px;
@@ -134,7 +139,7 @@ main {
   white-space: nowrap;
 }
 
-
+/* Sessão ícones submenu */
 .container-espaco-total-sub {
   display: flex;
   height: 64px;
@@ -151,9 +156,6 @@ main {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.container-agenda-sub {
-}
-
 .text-agenda-sub {
   color: var(--PrimeiraCOR, #0f4c83);
   font-family: Roboto, sans-serif;
@@ -162,6 +164,7 @@ main {
   margin: 0;
 }
 
+/* Linha separadora */
 .container-linha-separadora {
   width: 1072px;
   height: 0px;
@@ -171,6 +174,7 @@ main {
   stroke: #134bc3;
 }
 
+/* Sessão formulário */
 .container-espaco-form {
   display: flex;
   width: 1312px;
@@ -249,6 +253,7 @@ main {
   line-height: 16px;
 }
 
+/* Botão de confirmação */
 .container-estilo-botao-confirmar {
   display: flex;
   width: 240px;

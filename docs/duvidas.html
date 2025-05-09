@@ -8,12 +8,12 @@
   <meta name="author" content="Ana Julia Ferreira & Sthephany Viana" />
   <title>Psicóloga Ana Vitória</title>
   <link rel="icon" type="image/png" href="../assets/logoPrincp.png" />
-  <link rel="stylesheet" href="../style/duvidas.css" />
   <link rel="stylesheet" href="../style/reset.css" />
+  <link rel="stylesheet" href="../style/duvidas.css" />
 </head>
 
-
 <body>
+  <!-- Header -->
   <header class="container-barra-inicio">
     <div class="topBar">
       <div class="container-logo">
@@ -26,7 +26,7 @@
         <a href="admin.html" class="container-menu-navegacao">Início</a>
         <a href="cadastro-paciente.html" class="container-menu-navegacao">Pacientes</a>
         <a href="agenda.html" class="container-menu-navegacao">Agenda</a>
-        <a href="duvidas.html" class="container-menu-navegacao">Registro de Dúvidas</a >
+        <a href="duvidas.html" class="container-menu-navegacao">Registro de Dúvidas</a>
         <a href="feedback.html" class="container-menu-navegacao">Feedback</a>
       </nav>
       <div class="container-menu-pesquisa">
@@ -36,12 +36,13 @@
   </header>
 
   <main>
+    <!-- Início da seção com ícone -->
     <section class="container-agendamento">
       <section class="container-espaco-agendamento">
         <div class="container-espaco-total-sub">
           <div class="container-sub-menu">
             <div class="text-icone">
-              <img class="icone-sub-menu" src="../assets/icone-gerenciamento.png" alt="ícone de agenda"/>
+              <img class="icone-sub-menu" src="../assets/icone-gerenciamento.png" alt="ícone de agenda" />
             </div>
             <div class="text-agenda-sub">
               <h1>Gerenciamento</h1>
@@ -52,43 +53,43 @@
       </section>
     </section>
 
-    <!-- dando b.o aqui, css não aplica -->
-    <section class="container-registro-duvidas">
-      <div class="container-text-espaco">
-        <p>Registro de Dúvidas</p>
+    <div class="container-titulo-sessao">
+      <div class="titulo-sessao">
+        <h2>Registro de Dúvidas</h2>
       </div>
-    </section>
+    </div>
 
+    <!-- Formulário -->
     <section class="container-espaco-formulario">
       <div class="container-dupla-formulario">
         <div class="container-texto-solicitacao">
           <p class="texto-solicitacao">Número de contato</p>
-          <input type="text" class="input-nome" placeholder="Digite um telefone">
+          <input type="text" class="input-nome" placeholder="Digite um telefone" />
           <p class="texto-obrigatorio">Obrigatório*</p>
         </div>
       </div>
 
       <div class="container-texto-solicitacao">
         <p class="texto-solicitacao">Dúvida</p>
-        <input type="text" class="input-nome" placeholder="Digite um email">
+        <textarea class="input-nome" placeholder="Digite sua dúvida" rows="4"></textarea>
         <p class="texto-obrigatorio">Obrigatório*</p>
+
         <p class="texto-solicitacao">Deixar essa dúvida visível?</p>
         <div class="container-espaco-botao">
-          <button class="container-estilo-botao">Sim</button>
-          <button class="container-estilo-botao">Não</button>
+          <button type="button" class="container-estilo-botao">Sim</button>
+          <button type="button" class="container-estilo-botao">Não</button>
           <p class="texto-obrigatorio">Obrigatório*</p>
         </div>
       </div>
     </section>
 
+    <!-- Botões de envio -->
     <section class="container-botoes-envio">
-      <button class="container-estilo-botao-apagar">Apagar</button>
-      <button class="container-estilo-botao-registrar">Registrar</button>
+      <button type="reset" class="container-estilo-botao-apagar">Apagar</button>
+      <button type="submit" class="container-estilo-botao-registrar">Registrar</button>
     </section>
 
-    <!--Oi,teste de att-->
   </main>
 </body>
 
 </html>
-

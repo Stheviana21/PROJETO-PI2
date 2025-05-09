@@ -5,14 +5,17 @@ main {
   padding: 20px;
 }
 
+/* Header */
 .container-barra-inicio {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
   width: 100%;
   max-width: 1440px;
+  height: auto;
   padding-top: 80px;
   background: #fff;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -22,63 +25,29 @@ main {
   top: 0;
   width: 100vw;
   height: 80px;
+  overflow: hidden;
   padding: 20px 64px;
-  background: #fff;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+  background: #fff;
   justify-content: center;
   align-items: center;
   gap: 20px;
   box-sizing: border-box;
-  z-index: 10;
 }
 
-.text-icone {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  padding: 16px 20px;
-  box-sizing: border-box;
-}
-
-.icone-sub-menu {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-.text-agenda-sub {
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #134bc3;
-  margin: 0;
-  margin-left: auto;
-}
-
-.container-logo img {
-  height: 60px;
-}
-
-.container-duvidas {
-  display: flex;
-  position: relative;
-  width: 1312px;
-  overflow: hidden;
-  padding: 23px 120px 60px 120px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
-
+/* Sessão menu e navegação */
 .container-titulo-inicio {
+  flex: 1 0 0;
   color: #2946be;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 1.92px;
+}
+
+.container-logo img {
+  height: 60px;
 }
 
 .container-espaco-navegacao {
@@ -95,7 +64,6 @@ main {
   font-weight: 500;
   letter-spacing: 1.5px;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .container-menu-pesquisa {
@@ -111,39 +79,94 @@ main {
   border-radius: 6px;
 }
 
-.container-registro-duvidas {
-  width: 100%;
-  max-width: 1072px;
-  padding: 16px;
-  margin-top: 20px;
+.container-agendamento {
+  display: flex;
+  width: 1312px;
+  height: 368px;
+  overflow: hidden;
+  padding: 20px 120px 60px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.container-espaco-agendamento {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
+  gap: 27px;
 }
 
-
-.container-text-espaco {
-  width: 100%;
-
+.container-espaco-total-sub {
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
 }
 
+.container-sub-menu {
+  width: 1072px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #134bc3;
+  padding: 20px;
+}
 
-.container-text-espaco p {
-  color: #0f4c83;
+.text-icone {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icone-sub-menu {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.text-agenda-sub {
+  color: var(--PrimeiraCOR, #0f4c83);
   font-family: Roboto, sans-serif;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin: 0;
+}
+
+.container-linha-separadora {
+  width: 1072px;
+  height: 0px;
+  position: absolute;
+  bottom: 0px;
+  stroke-width: 1px;
+  stroke: #134bc3;
+}
+
+.container-titulo-sessao {
+  display: flex;
+  position: relative;
+  width: 1312px;
+  overflow: hidden;
+  padding: 23px 120px 60px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.titulo-sessao {
   width: 520px;
-  height: 48px;
   color: var(--PrimeiraCOR, #0F4C83);
-  text-align: center;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
-  border: 1px solid #134bc3;
+  line-height: 48px;
+  text-align: center;
 }
 
 .container-espaco-formulario {
@@ -187,23 +210,6 @@ main {
 }
 
 .container-espaco-botao {
-  display: flex;
-  gap: 10px;
-}
-
-.container-estilo-botao {
-  width: 64px;
-  height: 36px;
-  padding: 8px;
-  border: none;
-  border-radius: 6px;
-  background: #134bc333;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.container-espaco-botao {
   width: 510px;
   height: 36px;
   display: flex;
@@ -222,6 +228,10 @@ main {
   align-items: center;
   border-radius: 6px;
   background: rgba(0, 0, 0, 0.05);
+  border: none;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .container-botoes-envio {
@@ -248,7 +258,6 @@ main {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-
 }
 
 .container-estilo-botao-registrar {
