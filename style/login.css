@@ -11,7 +11,7 @@ main {
   left: 0;
   z-index: 1000;
   display: flex;
-  justify-content: space-between; /
+  justify-content: space-between; 
   align-items: center;
   padding: 20px;
   background: #FFF;
