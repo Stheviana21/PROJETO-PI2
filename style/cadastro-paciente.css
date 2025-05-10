@@ -36,7 +36,7 @@ main {
 .container-titulo-inicio {
   flex: 1 0 0;
   color: #2946be;
-  
+
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -96,7 +96,7 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  
+
   padding: 30px;
 }
 
@@ -146,13 +146,13 @@ main {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  
+
 }
 
 .container-dupla-formulario {
   width: 100%;
   max-width: 1200px;
-  height: 80px;
+  height: auto;
   display: flex;
   gap: 80px;
   align-items: center;
@@ -161,17 +161,19 @@ main {
 }
 
 .container-texto-solicitacao {
-  width: 510px;
+  width: 100%;
+  height: auto;
   color: #000;
-  ze: 14px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
 
 .texto-solicitacao {
-  width: 510px;
-  height: 36px;
   display: flex;
+  flex: wrap;
+  width: 100%;
+  height: auto;
   padding: 8px 12px;
   align-items: center;
   gap: 4px;
@@ -185,23 +187,25 @@ main {
   align-items: center;
   gap: 4px;
   border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #134bc3;
   background: #fff;
 }
 
 .texto-obrigatorio {
-  width: 510px;
-  color: rgba(0, 0, 0, 0.5);
-  ze: 12px;
+  width: 10px;
+  color: #134bc3;
+  font-size: 12px;
   font-weight: 400;
   line-height: 16px;
 }
 
 .container-espaco-botao {
-  width: 510px;
-  height: 36px;
+  width: 100%;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 10px;
 }
 
 .container-estilo-botao {
@@ -212,7 +216,7 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  background: rgba(0, 0, 0, 0.05);
+  background: #134bc33d;
 }
 
 .container-botoes-envio {
@@ -226,9 +230,9 @@ input[type="date"].input-nome {
   width: 510px;
   height: 36px;
   padding: 8px 12px;
-  
+
   font-size: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.10);
+  border: 1px solid #134bc3;
   border-radius: 6px;
   background-color: #fff;
   color: #000;
@@ -273,4 +277,3 @@ input[type="date"].input-nome {
 .container-estilo-botao-editar:hover {
   background: #dfe6f0;
 }
-
