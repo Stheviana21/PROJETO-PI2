@@ -39,7 +39,6 @@ main {
 .container-titulo-inicio {
   flex: 1 0 0;
   color: #2946be;
-  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -59,7 +58,6 @@ main {
 
 .container-menu-navegacao {
   color: #134bc3;
-  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -90,6 +88,17 @@ main {
   gap: 60px;
 }
 
+.container-titulo-agendamento h1{ 
+  width: 520px;
+    color: var(--PrimeiraCOR, #0F4C83);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+
 .container-espaco-agendamento {
   display: flex;
   flex-direction: column;
@@ -112,7 +121,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #134bc3;
+  
   padding: 20px;
 }
 
@@ -131,7 +140,6 @@ main {
 
 .text-agenda-sub {
   color: var(--PrimeiraCOR, #0f4c83);
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
   margin: 0;
@@ -181,7 +189,6 @@ main {
 }
 
 .texto-solicitacao {
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
@@ -210,7 +217,6 @@ main {
   border: none;
   border-radius: 6px;
   background: #134bc333;
-  font-family: Roboto, sans-serif;
   font-size: 14px;
   cursor: pointer;
 }
@@ -233,12 +239,13 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  background: rgba(0, 0, 0, 0.05);
+  background: #134bc33d;
 }
 
 .container-botoes-envio {
   display: flex;
-  width: 492px;
+  width: 100%;
+  justify-content: center;
   height: 48px;
   align-items: flex-start;
   gap: 12px;
@@ -255,8 +262,6 @@ main {
   border-radius: 8px;
   border: 1px solid #134BC3;
   color: #134BC3;
-  font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -274,8 +279,6 @@ main {
   border-radius: 8px;
   background: #134BC3;
   color: #FFF;
-  font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;

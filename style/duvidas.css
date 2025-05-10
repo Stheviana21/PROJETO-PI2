@@ -131,7 +131,6 @@ main {
 
 .text-agenda-sub {
   color: var(--PrimeiraCOR, #0f4c83);
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
   margin: 0;
@@ -161,7 +160,6 @@ main {
 .titulo-sessao {
   width: 520px;
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: Roboto;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -191,8 +189,7 @@ main {
   flex: 1;
 }
 
-.texto-solicitacao {
-  font-family: Roboto, sans-serif;
+.texto-solicitacao { 
   font-size: 16px;
   font-weight: 500;
 }
@@ -229,7 +226,6 @@ main {
   border-radius: 6px;
   background: rgba(0, 0, 0, 0.05);
   border: none;
-  font-family: Roboto, sans-serif;
   font-size: 14px;
   cursor: pointer;
 }
@@ -253,7 +249,6 @@ main {
   border-radius: 8px;
   border: 1px solid #134BC3;
   color: #134BC3;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -271,7 +266,6 @@ main {
   border-radius: 8px;
   background: #134BC3;
   color: #FFF;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

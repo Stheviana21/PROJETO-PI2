@@ -896,7 +896,6 @@ main {
 
 .text-item {
   color: var(--Default-White, #FFFF);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -918,7 +917,6 @@ main {
 
 .text-direito {
   color: var(--Default-White, #FFF);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
