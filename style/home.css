@@ -728,7 +728,7 @@ main {
   align-items: center;
   width: 100%;
   max-width: 1312px;
-  height: auto; 
+  height: auto;
   margin: 40px auto;
   margin-bottom: 40px;
   border-top: 1px solid var(--PrimeiraCOR, #0F4C83);
@@ -757,14 +757,12 @@ main {
   line-height: normal;
 }
 
-
 .accordion-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1302px;
 }
-
 
 .accordion-item {
   margin-bottom: 10px;
@@ -925,7 +923,7 @@ main {
   line-height: 140%;
 }
 
-.socialicons{
+.socialicons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -933,21 +931,22 @@ main {
   flex: 1 0 0;
 }
 
-.icon-instagram,.icon-whatsapp{
-width: 24px;
-height: 24px;
+.icon-instagram,
+.icon-whatsapp {
+  width: 24px;
+  height: 24px;
 }
 
-@media screen and (max-width:1020px){
-  /* header-menu */
-  .container-menu,.container-area-login{
-    display: none;
-  }
+/* @media screen and (max-width:1020px){ */
+/* header-menu */
+/* .container-menu,.container-area-login{ */
+/* display: none; */
+/* } */
 
-  /* sessão banner*/
-  .container-banner{
-  }
+/* sessão banner*/
+/* .container-banner{ */
+/* } */
 
-  
 
-}
+
+/* } */
