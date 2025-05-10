@@ -84,12 +84,13 @@ html {
 .container-menu-texto-sobre-mim a,
 .container-menu-texto-inicio a {
   color: var(--PrimeiraCOR, #0F4C83);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Inria Serif";
+  text-shadow: 0px 4px 4px #2e6cf352;
+  font-family: "Roboto";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
 }
 
 .container-area-login {
@@ -102,7 +103,7 @@ html {
 
 .btn-login-user {
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: "Inria Serif";
+  font-family: "Roboto";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -112,6 +113,7 @@ html {
   border-radius: 5px;
   border: none;
   padding: 4px;
+  background-color: #134bc33d;
 }
 
 .icon-login-user {
