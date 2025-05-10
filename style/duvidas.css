@@ -82,7 +82,7 @@ main {
 .container-agendamento {
   display: flex;
   width: 1312px;
-  height: 368px;
+  height: 175px;
   overflow: hidden;
   padding: 20px 120px 60px 120px;
   justify-content: center;
@@ -112,7 +112,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #134bc3;
+  
   padding: 20px;
 }
 
@@ -224,7 +224,7 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  background: rgba(0, 0, 0, 0.05);
+  background: #134bc33d
   border: none;
   font-size: 14px;
   cursor: pointer;
