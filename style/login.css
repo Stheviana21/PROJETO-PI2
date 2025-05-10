@@ -43,7 +43,7 @@ main {
 
 .titulo-login {
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: "Inria Serif", serif;
+  font-family: "Roboto";
   font-size: 20px;
   font-weight: 500;
   margin-right: 12px;
@@ -66,7 +66,7 @@ main {
 .container-titulo-acesso {
   text-align: center;
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: "Inria Serif", serif;
+  font-family: "Roboto";
   font-size: 32px;
   font-weight: 700;
 }
@@ -74,7 +74,7 @@ main {
 .container-texto-acesso {
   text-align: center;
   color: var(--PrimeiraCOR, #0F4C83);
-  font-family: "Inria Serif", serif;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
 }
@@ -118,7 +118,7 @@ main {
   height: 48px;
   border: none;
   border-radius: 8px;
-  background: var(--PrimeiraCOR, #0F4C83);
+  background: linear-gradient(180deg, #0F4C83 0%, #03111D 100%);
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -127,5 +127,5 @@ main {
 }
 
 .botao-login:hover {
-  background: #0c3b66;
+  background: linear-gradient(180deg, #146AB8 0%, #052033 100%);
 }
